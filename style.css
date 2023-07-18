@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+header{
+    background-color: #ed851d;
+    color: aliceblue;
+    text-align: center;
+}
+.datos{
+    display: inline-block;
+    width: 400px;
+    font-weight: 700;
+}
+.roles{
+    display: flex;
+    padding-bottom: 15px;
+    margin: 0px;
+}
+.rol{
+    padding-inline: 30px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: skew(-10deg);
+    list-style: none;
+}
+/*.rol:hover{
+    color: #ed851d;
+    background-color: aliceblue;
+    cursor: pointer;
+}*/
+
+.text-h1{
+    background-color: rgb(42, 165, 157);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-weight: 200;
+}
+.contenido{
+    margin-top: 15px;
+    max-width: 80%;
+    height: 900px;
+    margin:0 auto;
+}
+.text-h3-estudios{
+    font-weight: 500;
+    font-size: 1.8em;
+}
+.text-h3-experiencia{
+    font-weight: 500;
+    font-size: 1.8em;
+}
+.link{
+    text-decoration: none;
+    color:black;
+    margin-right: 100%;
+}
+.txt-link{
+    margin-top: 20px;
+}
+.text-h3-cursos{
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+.text-h3-certificaciones{
+    font-weight: 500;
+    font-size: 1.8em;
+}
+.contenedor-1{
+    width:70%;
+    display:inline-block;
+    margin-right:-8px;
+    vertical-align:top;
+}
+.imagen{
+    width:30%;
+    display:inline-block;
+    margin-top:30px;
+}
+img{
+    height: 200px;
+}
